@@ -24,6 +24,7 @@ Please visit the **examples** directory of this Github page for a step-by-step i
 
 https://www.python.org/
 
+\
 **2. DOWNLOAD enaBrowserTools:**
 
 From the [enaBrowserTools GitHub page](https://github.com/enasequence/enaBrowserTools/tree/master):
@@ -40,49 +41,57 @@ As last step, you need to compile the enaBT_path.txt in MADAME folder with the p
 ```
 INSTALLATION_DIR/enaBrowserTools/
 ```
-
+\
 **3. INSTALL EXTERNAL LIBRARIES:**
 
 To install external libraries open a terminal (prompt for windows users) and navigate to the MADAME folder with the following:
-* cd path/to/MADAME
-* cd path\to\MADAME (windows-users)
-
+```
+cd path/to/MADAME
+```
+or for Windows users:
+```
+cd path\to\MADAME (windows-users)
+```
+\
 Now that you are inside the MADAME folder, if you are a conda user (best option), run the following command:
-* conda env create -f requirements.yml
-
+```
+conda env create -f requirements.yml
+```
 Otherwise (less recommended), run the following command:
-* pip3 install -r pip_requirements.txt
+```
+pip3 install -r pip_requirements.txt
+```
 
 How to run MADAME
 ------------------
 Open a terminal and go to the MADAME directory by running the entire path:
 
 linux and mac:
-
-* cd path/to/MADAME  
-
+```
+cd path/to/MADAME  
+```
 windows (prompt):
-
-* cd path\to\MADAME
-
+```
+cd path\to\MADAME
+```
 Now that you are in the right directory, run the following command to start:
-
-* python main_madame.py
-
+```
+python main_madame.py
+```
 Operating instructions
 ----------------------
 
 **Where do you want to work?**
 
-Choose if you want to create a new folder inside MADAME/Downloads or use an already existing folder inside MADAME/Downloads. In the indicated folder MADAME will download the results. 
+Choose if you want to create a new folder inside MADAME/Downloads or use an already existing folder inside MADAME/Downloads. MADAME will download the results i n the folder you indicated. 
 
 **Which module do you want to use?**
 
  Which module do you want to use?
 
- 1 - Metadata retrievement module: metadata search and download
- 2 - Publication retrievement module: metadata- and data- associated publications download
- 3 - Report module: explore metadata and publication retrivement outputs
+ 1 - Metadata retrievement module: metadata search and download \
+ 2 - Publication retrievement module: metadata- and data- associated publications download \
+ 3 - Report module: explore metadata and publication retrivement outputs \
  4 - Data retrievement module: metadata-associated data download
 
 **Module 1 - Metadata retrievement module: metadata search and download**
