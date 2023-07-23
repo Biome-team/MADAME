@@ -129,7 +129,8 @@ MADAME calculates your free space and asks if you want to continue:
 ![madame_15](https://github.com/Biome-team/MADAME/assets/130676054/98292ec9-fea2-459d-a76e-d2845253a22e)
 -->**We digited yes**
 
-This is what folder GitHub includes: 
+
+At the end this is what folder GitHub includes: 
 - a folder for each project found
 - the listOfAccessionIDs from Module 1 which include the list of accession found and available on ENA
 - the merged experiment metadata from Module 1 (which derived from the merge of experiment metadata of all projects found)
@@ -137,7 +138,8 @@ This is what folder GitHub includes:
 - the HTML report
 - the report images folder
 - a log file with all the choices made by users and possible issues 
-![madame_21](https://github.com/Biome-team/MADAME/assets/130676054/fa16196e-379a-478d-a502-bcbaa3d1a05c)
+![madame_21](https://github.com/Biome-team/MADAME/assets/130676054/0b95ea72-be9d-4664-b30c-e47766088774)
+
 
 This is it looks like a project folder:
 - the project-metadata.xml from Module 1
@@ -146,7 +148,8 @@ This is it looks like a project folder:
 - the result of MADAME parse is parsed samples metadata from Module 1
 - publications metadata from Module 2
 - data folder from Module 4
-![madame_22](https://github.com/Biome-team/MADAME/assets/130676054/9bb4f512-a8fa-4945-8692-de721fc3d485)
+![madame_22](https://github.com/Biome-team/MADAME/assets/130676054/91b5f6d2-6852-410c-ab0a-fa83675bb231)
+
 
 The data folder includes data organized into run folders:
 ![madame_23](https://github.com/Biome-team/MADAME/assets/130676054/fb30e555-f510-4f34-a4d9-f2f15e131c74)
