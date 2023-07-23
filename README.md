@@ -18,7 +18,7 @@ MADAME has 4 principal FUNCTIONS:
 
 Installation instructions in a nutshell
 -------------------------
-Please visit the **examples** directory of this Github page for a step-by-step installation and example usage.
+Please look at __TUTORIAL.md__ file in this GitHub page for a step-by-step installation and example usage.
 
 **1. DOWNLOAD Python 3:**
 
@@ -66,11 +66,11 @@ How to run MADAME
 ------------------
 Open a terminal and go to the MADAME directory by running the entire path:
 
-linux and mac:
+Linux and Mac:
 ```
 cd path/to/MADAME  
 ```
-windows (prompt):
+Windows (prompt):
 ```
 cd path\to\MADAME
 ```
