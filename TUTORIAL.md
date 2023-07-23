@@ -136,6 +136,7 @@ This is what folder GitHub includes:
 - the merged publications metadata from Module 2 (which derived from the merge of publication metadata of all projects found)
 - the HTML report
 - the report images folder
+- a log file with all the choices made by users and possible issues 
 ![madame_21](https://github.com/Biome-team/MADAME/assets/130676054/fa16196e-379a-478d-a502-bcbaa3d1a05c)
 
 This is it looks like a project folder:
