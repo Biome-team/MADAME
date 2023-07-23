@@ -36,6 +36,10 @@ If you are using a Unix/Linux or Mac computer, we suggest you add the following 
 #enaBrowserTools
 export PATH=$PATH:INSTALLATION_DIR/enaBrowserTools/python3
 ```
+As last step, you need to compile the enaBT_path.txt in MADAME folder with the path of enaBrowserTools, like this:
+```
+INSTALLATION_DIR/enaBrowserTools/
+```
 
 **3. INSTALL EXTERNAL LIBRARIES:**
 
@@ -81,6 +85,24 @@ Choose if you want to create a new folder inside MADAME/Downloads or use an alre
  3 - Report module: explore metadata and publication retrivement outputs
  4 - Data retrievement module: metadata-associated data download
 
- **Module 1 - Metadata retrievement module: metadata search and download**
- Starting from a text query, or an accession list, or a file (CSV or TSV format) 
- 
+**Module 1 - Metadata retrievement module: metadata search and download**
+Starting from a text query, or an accession list, or a file (CSV or TSV format) MADAME allows to fetch and download experiment and sample metadata as files in TSV format.
+
+**Module 2 - Publication retrievement module: metadata- and data- associated publications download**
+Using the merged experiment metadata file from the previous module as input, MADAME searches for the related publications in ENA e in Europe PMC. The output is the found publications metadata in TSV format. 
+
+**Module 3 - Report module: explore metadata and publication retrivement outputs**
+Starting from the merged experiment metadata file of the Module 1 and (optionally) the merged publications metadata file of the Module 2, MADAME allows users to vizualize the downloaded metadata through the generation of a report. The report consists of plots and tables that users can also find in the "Report_images" folder as single plot in PNG format and single tables in XLSX format.
+
+**Module 4 - Data retrievement module: metadata-associated data download**
+The merged experiment metadata file of the Module 1 is used as input to fetch and download data from ENA. As this module uses enaBrowserTools, it is necessary for users to have previously downloaded it. MADAME enables users to download data in FASTQ, SRA or SUBMITTED format.
+
+Contacts
+-----------------------------------------------------
+* Name: __Sara Fumagalli__
+* e-mail: __sara.fumagalli@unimib.it__
+
+Credits and acknowledgments
+---------------------------
+* __Giulia Soletta__
+* __Giulia Agostinetto__
