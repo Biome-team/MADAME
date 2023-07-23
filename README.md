@@ -24,7 +24,20 @@ Please visit the **examples** directory of this Github page for a step-by-step i
 
 https://www.python.org/
 
-**2. INSTALL EXTERNAL LIBRARIES:**
+**2. DOWNLOAD enaBrowserTools:**
+
+From the [enaBrowserTools GitHub page](https://github.com/enasequence/enaBrowserTools/tree/master):
+Download [here](https://github.com/enasequence/enaBrowserTools/releases/latest) the latest release of enaBrownserTools and extract it to the preferred location on your computer. Navigate to enaBrowserTools folder. Now that you're inside the enaBrowserTools, give permissions to the folder containing scripts:
+```
+chmod 777 python3/
+```
+If you are using a Unix/Linux or Mac computer, we suggest you add the following command to your .bashrc file, where INSTALLATION_DIR is the location where you have saved the enaBrowserTools.
+```
+#enaBrowserTools
+export PATH=$PATH:INSTALLATION_DIR/enaBrowserTools/python3
+```
+
+**3. INSTALL EXTERNAL LIBRARIES:**
 
 To install external libraries open a terminal (prompt for windows users) and navigate to the MADAME folder with the following:
 * cd path/to/MADAME
@@ -42,7 +55,7 @@ Open a terminal and go to the MADAME directory by running the entire path:
 
 linux and mac:
 
-* cd path/to/MADAME
+* cd path/to/MADAME  
 
 windows (prompt):
 
@@ -51,3 +64,23 @@ windows (prompt):
 Now that you are in the right directory, run the following command to start:
 
 * python main_madame.py
+
+Operating instructions
+----------------------
+
+**Where do you want to work?**
+
+Choose if you want to create a new folder inside MADAME/Downloads or use an already existing folder inside MADAME/Downloads. In the indicated folder MADAME will download the results. 
+
+**Which module do you want to use?**
+
+ Which module do you want to use?
+
+ 1 - Metadata retrievement module: metadata search and download
+ 2 - Publication retrievement module: metadata- and data- associated publications download
+ 3 - Report module: explore metadata and publication retrivement outputs
+ 4 - Data retrievement module: metadata-associated data download
+
+ **Module 1 - Metadata retrievement module: metadata search and download**
+ Starting from a text query, or an accession list, or a file (CSV or TSV format) 
+ 
