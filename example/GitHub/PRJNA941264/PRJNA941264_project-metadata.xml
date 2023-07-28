@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROJECT_SET>
+<PROJECT accession="PRJNA941264" alias="PRJNA941264" center_name="Naval Medical University" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA941264</PRIMARY_ID>
+          <SECONDARY_ID>SRP425920</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE226706</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Naval Medical University">PRJNA941264</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Interaction between the microbiome and the severity of diversion colitis after low anterior resection of rectal cancer</NAME>
+     <TITLE>Interaction between the microbiome and the severity of diversion colitis after low anterior resection of rectal cancer</TITLE>
+     <DESCRIPTION>Background:Diversion colitis (DC) is a non-specific inflammation in the intestinal mucosa with colonic dysfunction after low anterior resection of rectal cancer. It is newly proposed in recent years. With the gradual prolongation time of the ileostomy status, the condition of DC may become increasingly severe. However, the corresponding pathogenesis of DC has not been clarified yet. Methods:Clinical information were collected from patients with low rectal cancer admitted to the Department of Anorectal Surgery, Changzheng Hospital, from April 2017 to April 2019. All patients were underwent laparoscopic low anterior resection combined with terminal ileum enterostomy (dual-chamber). After 3-6 months, selective enterostomy closure surgeries were conducted. Retrospective data were divided into mild and severe groups based on the scores of electronic colonoscopy made during follow-up. We then used chi-square test to comparethe clinical baseline information, clinical symptoms, and endoscopic characteristics between the two groups of patients. The multivariate Cox proportional hazards regression model was applied for estimating the odds ratio (OR) and corresponding 95% confidence interval (CI) to identify potential significant factors affecting severity of DC severity. After that, we recruited 40 patients with low rectal cancer after surgery (enterostomy status) and 40 patients were further classified into mild and severe groups according to the scores of endoscopic examinations. The following indexes were tested in the above two groups patients: calprotectin in intestinal lavage fluid, inflammatory factors in tissue and plasma, and lipopolysaccharide levels in plasma. Moreover, 16s-rDNA sequencing was carried out to analyze the diversity and and differences of microbiome in theintestinal lavage fluid of the two groups. Results:According to the endoscopic scores, there were 52 cases in the mild group and 58 cases in the severe group. We found that the age, BMI, history of diabetes , and the incidence of DC-related clinical symptoms (including abdominal pain, mucus, bloody stool, etc.) were significantly different between the two groups. (P&lt;0.05). Logistic multi-factor regression analysis results showed that age, BMI, history of diabetes, and symptoms associated with the state of the stoma are the independent risk factors that affect DC severity (P&lt;0.05). After enterostomy closure surgeries, compared with mild group, patients in the severe group showed much more clinical signs, such as abdominal pain, bloody stools, tenesmus, and anal pain andthe daily number of diarrhea, the time to return to normal stool and the level of CRP in plasma were significantly higher (P&lt;0.05). Results also showed that age, BMI, history of diabetes, and endoscopic scores were the independent risk factors affecting diarrhea severity after enterostomy closure surgery (P&lt;0.05). Of the 40 patients with low rectal cancer recruited, 23 were in the mild group and 17 in the severe group.In particular, the levels of calprotectin in the intestinal lavage fluid, TNF-α, IL-1β, IL-6 and IL-17 in mucosal /plasma, and the plasma LPS level of severe group were significantly higher than that of mild group (P&lt;0.05). . The results of 16s-rDNA sequencing showed that micromicrobiome with high enrichment values primarily consisted of Bifidobacteriales and Prevotella in mild group, whereas that in the severe group consisted of Providencia and Dorea. The functional predictions on such two types of microbiome were mainly focused on lipid synthesis, glycan synthesis, metabolism, and amino acid metabolism pathways. Overall design: Clinical information were collected from patients with low rectal cancer admitted to the Department of Anorectal Surgery, Changzheng Hospital, from April 2017 to April 2019. All patients were underwent laparoscopic low anterior resection combined with terminal ileum enterostomy (dual-chamber). After 3-6 months, selective enterostomy closure surgeries were conducted. Retrospective data were divided into mild and severe groups based on the scores of electronic colonoscopy made during follow-up. We then used chi-square test to comparethe clinical baseline information, clinical symptoms, and endoscopic characteristics between the two groups of patients. The multivariate Cox proportional hazards regression model was applied for estimating the odds ratio (OR) and corresponding 95% confidence interval (CI) to identify potential significant factors affecting severity of DC severity. After that, we recruited 40 patients with low rectal cancer after surgery (enterostomy status) and 40 patients were further classified into mild and severe groups according to the scores of endoscopic examinations. The following indexes were tested in the above two groups patients:calprotectin in intestinal lavage fluid, inflammatory factors in tissue and plasma, and lipopolysaccharide levels in plasma. Moreover, 16s-rDNA sequencing was carried out to analyze the diversity and and differences of microbiome in theintestinal lavage fluid of the two groups.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>749906</TAXON_ID>
+               <SCIENTIFIC_NAME>gut metagenome</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>36998438</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA941264&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA941264&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>941264</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2023-04-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2023-05-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>
