@@ -1,0 +1,27 @@
+2023-07-24 00:32:21,673 - main_madame - [MADAME INITIALIZED]
+2023-07-24 00:32:21,673 - main_madame - [USER-SESSION-CREATED]: MADAME/Downloads/GitHub
+2023-07-24 00:32:23,670 - metadata_retrievement_module - [INIZIALIZED]
+2023-07-24 00:32:24,691 - metadata_retrievement_module - [OPTION-1]: Doing a query on ENA
+2023-07-24 00:32:32,058 - metadata_retrievement_module - [OPTION-1] - USER QUERY ON ENA
+2023-07-24 00:32:32,270 - IDlist - [QUERY-ON-ENA]: "naval microbiome" - projects
+2023-07-24 00:32:32,270 - IDlist - [ACCESSION-IDS-FOUND]: ['PRJNA941264', 'PRJNA561197', 'PRJNA727025']
+2023-07-24 00:32:32,271 - IDlist - [QUERY-DETAILS]: found 3 projects:
+2023-07-24 00:32:32,271 - IDlist - [QUERY-DETAILS]: accession	description
+2023-07-24 00:32:32,271 - IDlist - [QUERY-DETAILS]: "PRJNA941264"	"Interaction between the microbiome and the severity of diversion colitis after low anterior resection of rectal cancer"
+2023-07-24 00:32:32,272 - IDlist - [QUERY-DETAILS]: "PRJNA561197"	"Macaca mulatta Metagenome"
+2023-07-24 00:32:32,272 - IDlist - [QUERY-DETAILS]: "PRJNA727025"	"16S rRNA Gene Sequencing of Human Feces from C. jejuni CHIM"
+2023-07-24 00:32:32,272 - IDlist - [QUERY-DETAILS]: 
+2023-07-24 00:32:32,864 - functions-module - GitHub_listOfAccessionIDs.tsv created
+2023-07-24 00:36:31,292 - ExperimentMetadataDownload - GitHub_merged_experiments-metadata.tsv successfully created
+2023-07-24 00:46:25,191 - publications-retrievement-module - [INIZIALIZED]
+2023-07-24 00:46:25,191 - publications-retrievement-module - [OPTION-1]: use 'merged_experiments-metadata.tsv' file present in the current session
+2023-07-24 00:46:25,191 - publications-retrievement-module - Found GitHub_merged_experiments-metadata.tsv
+2023-07-24 00:46:26,271 - GetPublications - Publications metadata was downloaded as PRJNA561197_publications-metadata.tsv
+2023-07-24 00:46:27,070 - GetPublications - Publications metadata was downloaded as PRJNA727025_publications-metadata.tsv
+2023-07-24 00:46:27,853 - GetPublications - Publications metadata was downloaded as PRJNA941264_publications-metadata.tsv
+2023-07-24 00:48:43,465 - report_generation_module - [INIZIALIZED]
+2023-07-24 00:50:28,960 - report_generation_module - Found GitHub_merged_experiments-metadata.tsv and GitHub_merged_publications-metadata.tsv
+2023-07-24 00:51:02,420 - report_generation_module - [REPORT-GENERATION-COMPLETED]: You can find the Report file in HTML format and the Report folder here: Downloads/GitHub
+2023-07-24 00:54:36,550 - data_retrievement_module - [INIZIALIZED]
+2023-07-24 00:55:23,005 - main_madame - [EXIT]
+
