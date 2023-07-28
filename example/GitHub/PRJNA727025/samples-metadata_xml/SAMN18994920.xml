@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAMPLE_SET>
+<SAMPLE accession="SAMN18994920" alias="CAMPY_37" center_name="Air Force Research Laboratory" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SAMN18994920</PRIMARY_ID>
+          <SECONDARY_ID>SRS8849830</SECONDARY_ID>
+          <EXTERNAL_ID namespace="BioSample">SAMN18994920</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Air Force Research Laboratory">CAMPY_37</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>MIMARKS Survey related sample from gut metagenome</TITLE>
+     <SAMPLE_NAME>
+          <TAXON_ID>749906</TAXON_ID>
+          <SCIENTIFIC_NAME>gut metagenome</SCIENTIFIC_NAME>
+     </SAMPLE_NAME>
+     <DESCRIPTION>Keywords: GSC:MIxS;MIMARKS:5.0</DESCRIPTION>
+     <SAMPLE_LINKS>
+    <SAMPLE_LINK>
+        <XREF_LINK>
+            <DB>ENA-FASTQ-FILES</DB>
+            <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRS8849830&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+        </XREF_LINK>
+    </SAMPLE_LINK>
+    <SAMPLE_LINK>
+        <XREF_LINK>
+            <DB>ENA-SUBMITTED-FILES</DB>
+            <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRS8849830&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+        </XREF_LINK>
+    </SAMPLE_LINK>
+</SAMPLE_LINKS>
+<SAMPLE_ATTRIBUTES>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>INSDC secondary accession</TAG>
+               <VALUE>SRS8849830</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>organism</TAG>
+               <VALUE>gut metagenome</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>collection date</TAG>
+               <VALUE>2014-11-07</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>env_broad_scale</TAG>
+               <VALUE>ENVO:02000022</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>geo loc name</TAG>
+               <VALUE>USA</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>env_local_scale</TAG>
+               <VALUE>ENVO:00002003</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>SubjectNumber</TAG>
+               <VALUE>15</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>NCBI submission package</TAG>
+               <VALUE>MIMARKS.survey.human-gut.5.0</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>lat lon</TAG>
+               <VALUE>39.2983 N 76.5902 W</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>host</TAG>
+               <VALUE>Homo sapiens</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>UniqueSampleID</TAG>
+               <VALUE>37</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>host age</TAG>
+               <VALUE>29</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>env_medium</TAG>
+               <VALUE>ENVO:00002003</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>BioSampleModel</TAG>
+               <VALUE>MIGS/MIMS/MIMARKS.human-gut</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>BioSampleModel</TAG>
+               <VALUE>MIMARKS.survey</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2021-08-02</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-08-02</VALUE>
+          </SAMPLE_ATTRIBUTE>
+     </SAMPLE_ATTRIBUTES>
+</SAMPLE>
+</SAMPLE_SET>
