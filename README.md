@@ -37,7 +37,7 @@ If you are using a Unix/Linux or Mac computer, we suggest you add the following 
 #enaBrowserTools
 export PATH=$PATH:INSTALLATION_DIR/enaBrowserTools/python3
 ```
-As last step, you need to compile the enaBT_path.txt in MADAME folder with the path of enaBrowserTools, like this:
+As last step, you need to compile the `enaBT_path.txt` in MADAME folder with the path of enaBrowserTools, like this:
 ```
 INSTALLATION_DIR/enaBrowserTools/
 ```
