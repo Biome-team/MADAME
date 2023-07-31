@@ -28,7 +28,7 @@ https://www.python.org/
 **2. DOWNLOAD enaBrowserTools:**
 
 From the [enaBrowserTools GitHub page](https://github.com/enasequence/enaBrowserTools/tree/master):
-Download [here](https://github.com/enasequence/enaBrowserTools/releases/latest) the latest release of enaBrownserTools and extract it to the preferred location on your computer. Navigate to enaBrowserTools folder. Now that you're inside the enaBrowserTools, give permissions to the folder containing scripts:
+Download [here](https://github.com/enasequence/enaBrowserTools/releases/latest) the latest release of enaBrowserTools and extract it to the preferred location on your computer. Navigate to enaBrowserTools folder. Now that you're inside the enaBrowserTools, give permissions to the folder containing scripts:
 ```
 chmod 777 python3/
 ```
