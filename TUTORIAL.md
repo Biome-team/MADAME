@@ -145,7 +145,7 @@ At the end this is what GitHub folder includes:
 - the HTML report
 - the report images folder
 - a log file with all the choices made by users and possible issues 
-![madame_21](https://github.com/Biome-team/MADAME/assets/130676054/0b95ea72-be9d-4664-b30c-e47766088774)
+![madame_21](https://github.com/Biome-team/MADAME/assets/130676054/d86c8013-da99-4faa-b15a-29c14080ad1a)
 
 
 This is how a project folder looks like:
@@ -154,7 +154,7 @@ This is how a project folder looks like:
 - the folder `samples-metadata_xml` which MADAME parses from Module 1 into `parsed-samples-metadata.tsv`
 - the `publications metadata` from Module 2
 - data folder from Module 4
-![madame_22](https://github.com/Biome-team/MADAME/assets/130676054/e4d67eeb-39c2-492e-95e2-0079ba7dcc23)
+![madame_22](https://github.com/Biome-team/MADAME/assets/130676054/76a5767f-e3da-4bce-98cc-4c9a93534209)
 
 
 The data folder includes data organized into run folders:
