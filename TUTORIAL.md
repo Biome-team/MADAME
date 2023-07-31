@@ -12,7 +12,7 @@ Install MADAME following these steps:
     or 
     * Use git from command line: `git clone https://github.com/Biome-team/MADAME`
 
-3. We suggest to install Conda or Mininconda to run ExtaxsI - here you can find how to install Miniconda3: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+3. We suggest to install Conda or Miniconda - here you can find how to install Miniconda3: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 4. Once Miniconda is installed, create the conda environment with the command below:
 ```
@@ -75,10 +75,13 @@ Here the download:
 ![madame_8](https://github.com/Biome-team/MADAME/assets/130676054/42c8cf5c-135c-4150-97c3-ff12b882d186)
 -->**Press enter to go to main menu**
 
+Module 2 - Publications retrievement module: publications and related metadata search
+---------------------
+
 Now digit 2 to start publication retrieval module
 ![madame_3](https://github.com/Biome-team/MADAME/assets/130676054/d107aa7a-c14b-430b-b2c6-e321ea43fefd)
 
-Indicate where merged experiment metadata is in your computer. The option 2 allowsallows the user to use a merged experiment metadata file that has been previously moved from MADAME/Downloads/GitHub. This can happen if the user want to view or edit the file
+Indicate where `merged experiment metadata` is in your computer. The option 2 allows the user to use a `merged experiment metadata` that has been previously moved from MADAME/Downloads/GitHub. This can happen if the user wanted to explore or manipulate the metadata file outside the MADAME folder
 ![madame_9](https://github.com/Biome-team/MADAME/assets/130676054/2994521d-0f2e-4821-bdac-b3df686d1565)
 -->**To follow the tutorial, digit 1**
 
@@ -86,10 +89,13 @@ And see the results:
 ![madame_10](https://github.com/Biome-team/MADAME/assets/130676054/242cf5e5-5d3e-4412-8aef-f1f4d1d1479f)
 -->**Press enter to go to main menu**
 
-Now digit 3 to vizualize what we downloaded in the previous modules:
+Module 3 - Report generation module: metadata visualization
+---------------------
+
+Now digit 3 to visualize what we downloaded in the previous modules:
 ![madame_3](https://github.com/Biome-team/MADAME/assets/130676054/d107aa7a-c14b-430b-b2c6-e321ea43fefd)
 
-For the generation of the report only the merged experiment metadata (from the Module 1) is needed but if you give also merged publications metadata file as input MADAME expandes the numebr of plots generated. Also in this case is possibile to use file in different location of your computer
+For the generation of the report only the `merged experiment metadata` (from the Module 1) is needed. However user can also submit `merged publications metadata` to MADAME in order to expande the number of plots generated. Furthermore, user can submit files present in different location of his computer.
 ![madame_11](https://github.com/Biome-team/MADAME/assets/130676054/ecc2d3d4-f706-4627-a0c9-be1bf142b1f4)
 -->**To follow the tutorial, digit 1**
 
@@ -112,7 +118,8 @@ Let's see some plots:
 5) Bar chart of library source
 ![madame_20](https://github.com/Biome-team/MADAME/assets/130676054/0136244a-3436-466d-b407-e25b48f7904c)
 
-
+Module 4 - Data retrievement module: data search and download
+---------------------
 
 Finally digit 4 for data download
 ![madame_3](https://github.com/Biome-team/MADAME/assets/130676054/d107aa7a-c14b-430b-b2c6-e321ea43fefd)
@@ -121,7 +128,7 @@ Choose the input file:
 ![madame_13](https://github.com/Biome-team/MADAME/assets/130676054/aebf6242-6ecd-4397-a8e7-d9d4cce7f624)
 -->**To follow the tutorial, digit 1**
 
-And now choose the format of data:
+And now choose the data format:
 ![madame_14](https://github.com/Biome-team/MADAME/assets/130676054/6d2ee97b-e96c-4045-aa15-0ed934eea836)
 -->**To follow the tutorial, digit fastq**
 
@@ -130,25 +137,24 @@ MADAME calculates your free space and asks if you want to continue:
 -->**We digited yes**
 
 
-At the end this is what folder GitHub includes: 
+At the end this is what GitHub folder includes:
 - a folder for each project found
-- the listOfAccessionIDs from Module 1 which include the list of accession found and available on ENA
-- the merged experiment metadata from Module 1 (which derived from the merge of experiment metadata of all projects found)
-- the merged publications metadata from Module 2 (which derived from the merge of publication metadata of all projects found)
+- the `listOfAccessionIDs.tsv` from Module 1 which include the list of accession found and available on ENA
+- the `merged experiment metadata` from Module 1 (which derived from the merge of experiment metadata of all projects found)
+- the `merged publications metadata` from Module 2 (which derived from the merge of publication metadata of all projects found)
 - the HTML report
 - the report images folder
 - a log file with all the choices made by users and possible issues 
 ![madame_21](https://github.com/Biome-team/MADAME/assets/130676054/0b95ea72-be9d-4664-b30c-e47766088774)
 
 
-This is it looks like a project folder:
-- the project-metadata.xml from Module 1
-- the experiment metadata from Module 1
-- the folder samples-metadata_xml which MADAME parses from Module 1
-- the result of MADAME parse is parsed samples metadata from Module 1
-- publications metadata from Module 2
+This is how a project folder looks like:
+- the `project-metadata.xml` from Module 1
+- the `experiment metadata` from Module 1
+- the folder `samples-metadata_xml` which MADAME parses from Module 1 into `parsed-samples-metadata.tsv`
+- the `publications metadata` from Module 2
 - data folder from Module 4
-![madame_22](https://github.com/Biome-team/MADAME/assets/130676054/91b5f6d2-6852-410c-ab0a-fa83675bb231)
+![madame_22](https://github.com/Biome-team/MADAME/assets/130676054/e4d67eeb-39c2-492e-95e2-0079ba7dcc23)
 
 
 The data folder includes data organized into run folders:
