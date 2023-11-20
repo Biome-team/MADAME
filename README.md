@@ -25,7 +25,11 @@ Please look at __TUTORIAL.md__ file in this GitHub page for a step-by-step insta
 https://www.python.org/
 
 \
-**2. DOWNLOAD enaBrowserTools:**
+**2. DOWNLOAD MADAME:**
+
+From the [GitHub Docs page](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#downloading-source-code-archives-from-the-repository-view):
+
+**3. DOWNLOAD enaBrowserTools:**
 
 From the [enaBrowserTools GitHub page](https://github.com/enasequence/enaBrowserTools/tree/master):
 Download [here](https://github.com/enasequence/enaBrowserTools/releases/latest) the latest release of enaBrowserTools and extract it to the preferred location on your computer. Navigate to enaBrowserTools folder. Now that you're inside the enaBrowserTools, give permissions to the folder containing scripts:
