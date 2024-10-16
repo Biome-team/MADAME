@@ -61,10 +61,6 @@ Now that you are inside the MADAME folder, if you are a conda user (best option)
 ```
 conda env create -f requirements.yml
 ```
-Otherwise (less recommended), run the following command:
-```
-pip3 install -r pip_requirements.txt
-```
 
 How to run MADAME
 ------------------
